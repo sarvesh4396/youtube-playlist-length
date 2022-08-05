@@ -1,7 +1,7 @@
 import re, os, requests, isodate
-import dotenv
+# import dotenv
 
-dotenv.load_dotenv(".env")
+# dotenv.load_dotenv(".env")
 API = os.getenv("KEY")
 
 BASE_URL = "https://www.googleapis.com/youtube/v3"
